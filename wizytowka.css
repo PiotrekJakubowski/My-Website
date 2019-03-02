@@ -7,7 +7,6 @@ html {
 }
 
 body {
-    height: 3000px;
     box-sizing: border-box;
     width: 100%;
     font-family: sans-serif;
@@ -32,7 +31,6 @@ a:hover {
     background: rgba(0,0,0,0.3);
 }
 
-
 .container {
     max-width: 1000px;
     margin: 0;
@@ -42,7 +40,7 @@ a:hover {
 
 .flex-menu ul{
     position: absolute;
-    border: 1px solid black;
+    border: 2px solid #00004d;
     top: 0;
     left: 0;
     right: 0;
@@ -86,5 +84,34 @@ a:hover {
         flex-basis: 100%;
     }
 
+    .container { 
+        display: flex;
+        flex-direction: column;
+    }
+
+    .container > * {
+        order: 9999;
+    }
+
+    .flex-menu {
+        order: 1;
+    }
+
 }
+
+/*Plik aboutMe.html */
+
+img{
+    width: 100%;
+    height: 100%;
+}
+
+.portrait {
+     display: flex; 
+     width: 310.5px;
+     height: 450px;
+}
+
+
+
 
