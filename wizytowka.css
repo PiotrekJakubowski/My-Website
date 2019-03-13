@@ -79,6 +79,10 @@ a:hover {
         flex: 1 1 25%;
     }
 
+    .describe {
+        top: 30% !important;
+    }
+
     .boxes {
         margin: 0;
         padding: 0;
