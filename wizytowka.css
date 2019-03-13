@@ -120,6 +120,8 @@ a:hover {
     }
 
     .describe .image {
+        margin-left: auto;
+        margin-right: auto;
         order: -1;
     }
 
